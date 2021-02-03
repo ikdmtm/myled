@@ -1,8 +1,8 @@
 # led control program
 
-~/myled$ make　　Makefileでコンパイル
-~/myled$ ls　　myled.koなどがあればok
-~/myled$ sudo chmod 666 /dev/myled0　　/dev/myled0への書き込みを許可 
+~/myled$ make　　Makefileでコンパイル<br>
+~/myled$ ls　　myled.koなどがあればok<br>
+~/myled$ sudo chmod 666 /dev/myled0　　/dev/myled0への書き込みを許可<br>
 
 #### 緑のLEDを点灯させる
 ~/myled$ echo "green" /dev/myled0 or echo "g" /dev/myled0 
