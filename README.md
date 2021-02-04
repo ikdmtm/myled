@@ -3,9 +3,9 @@
 ###  用意するもの
 rasberry pi<br>
 led　緑、黄、赤<br>
-抵抗 10kΩ*3<br>
+抵抗 10kΩ×3<br>
 ブレッドボード<br>
-ジャンパワイヤ*3<br>
+ジャンパワイヤ×3<br>
 
 ### 使い方
 $mkdir myled　　myledディレクトリを作成
