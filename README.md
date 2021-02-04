@@ -1,5 +1,15 @@
 # led control program
+# キャラクタ型デバイスドライバ
+###  用意するもの
+rasberry pi<br>
+led　緑、黄、赤<br>
+抵抗 10kΩ*3<br>
+ブレッドボード<br>
+ジャンパワイヤ*3<br>
 
+### 使い方
+$mkdir myled　　myledディレクトリを作成
+$cd myled
 ~/myled$ make　　Makefileでコンパイル<br>
 ~/myled$ ls　　myled.koなどがあればok<br>
 ~/myled$ sudo chmod 666 /dev/myled0　　/dev/myled0への書き込みを許可<br>
